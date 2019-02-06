@@ -1,23 +1,23 @@
-//
-//  AddNoteViewController.swift
-//  My App 2.6
-//
-//  Created by Lambda_School_Loaner_18 on 2/6/19.
-//  Copyright © 2019 SeanDoyle. All rights reserved.
-//
-
 import UIKit
 
 class AddNoteViewController: UIViewController {
     
+    let noteController = NoteController()
+    
     @IBAction func savePressed(_ sender: Any) {
-       // save textfield and view
+        guard let note = textField.text, !note.isEmpty else { return }
+        guard let text = textView.text, !text.isEmpty else { return }
         
+        
+        noteController.addNote(title: note, text: text)
+        print("addNoteVC.")
         navigationController?.popViewController(animated: true)
+        
     }
     
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var textView: UITextView!
+    
     
     
     
