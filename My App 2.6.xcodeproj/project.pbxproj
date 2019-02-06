@@ -12,6 +12,10 @@
 		84535AAC220B44430051F836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84535AAA220B44430051F836 /* Main.storyboard */; };
 		84535AAE220B44440051F836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84535AAD220B44440051F836 /* Assets.xcassets */; };
 		84535AB1220B44440051F836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84535AAF220B44440051F836 /* LaunchScreen.storyboard */; };
+		84535AB9220B48F20051F836 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84535AB8220B48F20051F836 /* HomeViewController.swift */; };
+		84535ABB220B4F490051F836 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84535ABA220B4F490051F836 /* ThemeViewController.swift */; };
+		84535ABD220B4F860051F836 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84535ABC220B4F860051F836 /* AddNoteViewController.swift */; };
+		84535ABF220B4FB40051F836 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84535ABE220B4FB40051F836 /* NoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		84535AAD220B44440051F836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84535AB0220B44440051F836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84535AB2220B44440051F836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84535AB8220B48F20051F836 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84535ABA220B4F490051F836 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		84535ABC220B4F860051F836 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		84535ABE220B4FB40051F836 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				84535AA6220B44430051F836 /* AppDelegate.swift */,
 				84535AA8220B44430051F836 /* ViewController.swift */,
 				84535AAA220B44430051F836 /* Main.storyboard */,
+				84535ABA220B4F490051F836 /* ThemeViewController.swift */,
+				84535ABC220B4F860051F836 /* AddNoteViewController.swift */,
+				84535ABE220B4FB40051F836 /* NoteTableViewController.swift */,
+				84535AB8220B48F20051F836 /* HomeViewController.swift */,
 				84535AAD220B44440051F836 /* Assets.xcassets */,
 				84535AAF220B44440051F836 /* LaunchScreen.storyboard */,
 				84535AB2220B44440051F836 /* Info.plist */,
@@ -137,6 +149,10 @@
 			files = (
 				84535AA9220B44430051F836 /* ViewController.swift in Sources */,
 				84535AA7220B44430051F836 /* AppDelegate.swift in Sources */,
+				84535ABB220B4F490051F836 /* ThemeViewController.swift in Sources */,
+				84535ABF220B4FB40051F836 /* NoteTableViewController.swift in Sources */,
+				84535ABD220B4F860051F836 /* AddNoteViewController.swift in Sources */,
+				84535AB9220B48F20051F836 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
