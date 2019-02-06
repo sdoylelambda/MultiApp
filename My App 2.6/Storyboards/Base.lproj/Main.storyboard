@@ -29,16 +29,26 @@
                                 <rect key="frame" x="64" y="363" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="setThemeDarkPressed:" destination="Xfu-Fd-Wsa" eventType="touchUpInside" id="Owk-ul-smk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEJ-im-MvP">
                                 <rect key="frame" x="258" y="363" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="setThemeLightPressed:" destination="Xfu-Fd-Wsa" eventType="touchUpInside" id="kB7-jk-TZ7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mQD-Va-UZ8"/>
                     </view>
+                    <connections>
+                        <outlet property="setThemeDark" destination="Quo-dm-Y3C" id="q8U-2i-TUK"/>
+                        <outlet property="setThemeLight" destination="CEJ-im-MvP" id="oGP-2O-JV9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9g-aq-ZAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,8 +177,16 @@
                         <viewLayoutGuide key="safeArea" id="uze-Cz-HEU"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="SWo-45-cGD">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="l0s-3U-SxB"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="l0s-3U-SxB">
+                            <connections>
+                                <action selector="savePressed:" destination="Kzc-Rk-nCS" id="qgb-kj-IbW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="E33-i7-7mA" id="AlP-k0-Nsr"/>
+                        <outlet property="textView" destination="sH8-xv-Qbw" id="olf-ps-iMn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKi-hT-FgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
